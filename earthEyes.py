@@ -42,3 +42,12 @@ axes3[1].imshow(student_img, interpolation='none')
 axes3[1].set_xlim(500, 1500)
 axes3[1].set_ylim(1130, 850)
 fig3.show()
+
+student_img.paste(earth_small, (705, 940), mask=earth_small) 
+# Display
+fig3, axes3 = plt.subplots(1, 2)
+axes3[0].imshow(student_img, interpolation='none')
+axes3[1].imshow(student_img, interpolation='none')
+axes3[1].set_xlim(500, 1500)
+axes3[1].set_ylim(1130, 850)
+fig3.show()
